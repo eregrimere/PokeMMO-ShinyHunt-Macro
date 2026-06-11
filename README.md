@@ -6,7 +6,13 @@ Shiny Hunter OCR is a Python automation project designed to detect shiny encount
 
 The application continuously performs automated cycles, captures the screen, processes the image with OCR, and searches for a target keyword.
 
-Run the code, press P to stop. You can change the wait settings on settings.py
+## Configuration Notes
+
+- The application assumes that **Sweet Scent** is bound to the **"C"** key.
+- Mouse coordinates were recorded using a **1920×1080 monitor** with the game running in **windowed mode**. Users may need to recalibrate the coordinates to match their own display and window configuration.
+- The application can be stopped at any time by pressing the **"P"** key.
+- All timing-related settings, delays, and configurable parameters are centralized in `settings.py`.
+- You can use `mouse_finder.py` to get coordinates.
 
 When a Shiny is detected:
 
