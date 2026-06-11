@@ -1,8 +1,8 @@
-# Shiny Hunter OCR
+# Shiny Hunter Macro
 
 ## Overview
 
-Shiny Hunter OCR is a Python automation project designed to detect shiny encounters using Optical Character Recognition (OCR).
+Shiny Hunter Macro is a Python automation project designed to detect shiny encounters using Optical Character Recognition (OCR).
 
 The application continuously performs automated cycles, captures the screen, processes the image with OCR, and searches for a target keyword.
 
