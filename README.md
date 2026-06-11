@@ -6,6 +6,8 @@ Shiny Hunter OCR is a Python automation project designed to detect shiny encount
 
 The application continuously performs automated cycles, captures the screen, processes the image with OCR, and searches for a target keyword.
 
+Run the code, press P to stop. You can change the wait settings on settings.py
+
 When a Shiny is detected:
 
 - A Discord webhook notification is sent.
